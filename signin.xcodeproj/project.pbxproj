@@ -11,6 +11,7 @@
 		DC7C778F290FB4D40092D6CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7C778E290FB4D40092D6CD /* ContentView.swift */; };
 		DC7C7791290FB4D50092D6CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7C7790290FB4D50092D6CD /* Assets.xcassets */; };
 		DC7C7794290FB4D50092D6CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7C7793290FB4D50092D6CD /* Preview Assets.xcassets */; };
+		DC7C779B290FB69C0092D6CD /* Sign up.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7C779A290FB69C0092D6CD /* Sign up.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DC7C778E290FB4D40092D6CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC7C7790290FB4D50092D6CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC7C7793290FB4D50092D6CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC7C779A290FB69C0092D6CD /* Sign up.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sign up.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				DC7C778C290FB4D40092D6CD /* signinApp.swift */,
 				DC7C778E290FB4D40092D6CD /* ContentView.swift */,
+				DC7C779A290FB69C0092D6CD /* Sign up.swift */,
 				DC7C7790290FB4D50092D6CD /* Assets.xcassets */,
 				DC7C7792290FB4D50092D6CD /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7C779B290FB69C0092D6CD /* Sign up.swift in Sources */,
 				DC7C778F290FB4D40092D6CD /* ContentView.swift in Sources */,
 				DC7C778D290FB4D40092D6CD /* signinApp.swift in Sources */,
 			);
