@@ -12,6 +12,8 @@
 		DC7C7791290FB4D50092D6CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7C7790290FB4D50092D6CD /* Assets.xcassets */; };
 		DC7C7794290FB4D50092D6CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7C7793290FB4D50092D6CD /* Preview Assets.xcassets */; };
 		DC7C779B290FB69C0092D6CD /* Sign up.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7C779A290FB69C0092D6CD /* Sign up.swift */; };
+		DC7C779D290FE8BE0092D6CD /* sign up.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7C779C290FE8BE0092D6CD /* sign up.swift */; };
+		DC9E402329100634004A5167 /* Silver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E402229100634004A5167 /* Silver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		DC7C7790290FB4D50092D6CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC7C7793290FB4D50092D6CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC7C779A290FB69C0092D6CD /* Sign up.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sign up.swift"; sourceTree = "<group>"; };
+		DC7C779C290FE8BE0092D6CD /* sign up.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sign up.swift"; sourceTree = "<group>"; };
+		DC9E402229100634004A5167 /* Silver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,8 @@
 		DC7C7780290FB4D40092D6CD = {
 			isa = PBXGroup;
 			children = (
+				DC9E402229100634004A5167 /* Silver.swift */,
+				DC7C779C290FE8BE0092D6CD /* sign up.swift */,
 				DC7C778B290FB4D40092D6CD /* signin */,
 				DC7C778A290FB4D40092D6CD /* Products */,
 			);
@@ -142,6 +148,8 @@
 			files = (
 				DC7C779B290FB69C0092D6CD /* Sign up.swift in Sources */,
 				DC7C778F290FB4D40092D6CD /* ContentView.swift in Sources */,
+				DC9E402329100634004A5167 /* Silver.swift in Sources */,
+				DC7C779D290FE8BE0092D6CD /* sign up.swift in Sources */,
 				DC7C778D290FB4D40092D6CD /* signinApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
