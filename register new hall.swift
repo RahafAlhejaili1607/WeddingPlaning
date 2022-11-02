@@ -247,7 +247,7 @@ struct register_new_hall: View {
                                    
                                     .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(hue: 0.19, saturation: 0.28, brightness: 0.484, opacity: 0.922)/*@END_MENU_TOKEN@*/)
                                     .foregroundColor(.white)
-                                    .cornerRadius(30)
+                                    .cornerRadius(40)
                                 
                                     
                             }
