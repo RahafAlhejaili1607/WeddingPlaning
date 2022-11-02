@@ -393,7 +393,7 @@ Bride Room
                            
                           
 
-                           .background(.clear)
+                          
                            .scrollContentBackground(.hidden)
                            .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(hue: 0.322, saturation: 0.215, brightness: 0.44, opacity: 0.922)/*@END_MENU_TOKEN@*/)
                         

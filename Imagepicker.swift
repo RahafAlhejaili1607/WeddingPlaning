@@ -19,7 +19,7 @@ struct imageoicker: View {
               matching: .images,
               photoLibrary: .shared()) {
                                                                 HStack{
-                                                                                                                  Spacer()
+                                                                                                                  
                                                                                                                   Text("Upload ")
                                                                                                                   
                                                                                                                   Image(systemName: "photo")
@@ -27,7 +27,7 @@ struct imageoicker: View {
                                                                                                                                                                     .resizable()
                                                                                                                                                                     .frame(width: 25, height: 25)
                                                                                                                   //  .padding(.leading,300)
-                                                                                                                  Spacer()
+                                                                                                                  
                                                                                                                   
                                                                 }}
               .onChange(of: selectedItem) { newItem in

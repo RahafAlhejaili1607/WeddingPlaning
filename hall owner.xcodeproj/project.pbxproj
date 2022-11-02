@@ -21,6 +21,9 @@
 		26513E60290EB04500A40946 /* register new hall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26513E5F290EB04500A40946 /* register new hall.swift */; };
 		26513E62290EB32F00A40946 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26513E61290EB32F00A40946 /* Location.swift */; };
 		26513E66290FB32900A40946 /* tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26513E65290FB32900A40946 /* tabbar.swift */; };
+		26513E682912C03300A40946 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26513E672912C03300A40946 /* Signup.swift */; };
+		26513E6A2912C1A600A40946 /* sign in.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26513E692912C1A600A40946 /* sign in.swift */; };
+		26513E6C2912C5D900A40946 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26513E6B2912C5D900A40946 /* Package.swift */; };
 		26B84CD7290A566500A6B503 /* Edit my hall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B84CD6290A566500A6B503 /* Edit my hall.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +62,9 @@
 		26513E5F290EB04500A40946 /* register new hall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "register new hall.swift"; sourceTree = "<group>"; };
 		26513E61290EB32F00A40946 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		26513E65290FB32900A40946 /* tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbar.swift; sourceTree = "<group>"; };
+		26513E672912C03300A40946 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		26513E692912C1A600A40946 /* sign in.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sign in.swift"; sourceTree = "<group>"; };
+		26513E6B2912C5D900A40946 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		26B84CD6290A566500A6B503 /* Edit my hall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit my hall.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +96,9 @@
 		261FC3D829090A8E00B9D4DB = {
 			isa = PBXGroup;
 			children = (
+				26513E672912C03300A40946 /* Signup.swift */,
+				26513E6B2912C5D900A40946 /* Package.swift */,
+				26513E692912C1A600A40946 /* sign in.swift */,
 				26513E65290FB32900A40946 /* tabbar.swift */,
 				26513E5F290EB04500A40946 /* register new hall.swift */,
 				26513E61290EB32F00A40946 /* Location.swift */,
@@ -285,12 +294,15 @@
 				261ECFC7290D1CF10061CD6A /* SwiftUIView.swift in Sources */,
 				26513E66290FB32900A40946 /* tabbar.swift in Sources */,
 				26513E62290EB32F00A40946 /* Location.swift in Sources */,
+				26513E6A2912C1A600A40946 /* sign in.swift in Sources */,
 				261FC3E729090A8E00B9D4DB /* ContentView.swift in Sources */,
 				26B84CD7290A566500A6B503 /* Edit my hall.swift in Sources */,
 				26513E60290EB04500A40946 /* register new hall.swift in Sources */,
 				261ECFC3290AE1860061CD6A /* Hall owner's profile.swift in Sources */,
+				26513E682912C03300A40946 /* Signup.swift in Sources */,
 				26513E5E290EAB7500A40946 /* Imagepicker.swift in Sources */,
 				261FC3E529090A8E00B9D4DB /* hall_ownerApp.swift in Sources */,
+				26513E6C2912C5D900A40946 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
