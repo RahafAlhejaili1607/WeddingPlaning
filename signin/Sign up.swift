@@ -37,7 +37,7 @@ struct Sign_up: View {
                         .padding(.top, -190.0)
                         .position(x:200,y:200 )
                         .bold()
-                    
+                        .foregroundColor(.white)
                     Spacer()
                     
                     Spacer()
@@ -47,7 +47,7 @@ struct Sign_up: View {
                     
                     Form{
                         
-                        Text("username:")
+                        Text("Username:")
                         TextField("username", text: $Username)
                         
                         
@@ -62,6 +62,7 @@ struct Sign_up: View {
                         Text("Phone number:")
                         TextField("Phone number", text: $Phonenumber)
                     }
+                    .scrollContentBackground(.hidden)
                     .padding(.top,-230)
                     .padding(.bottom,160)
                     

@@ -35,6 +35,7 @@ struct ContentView: View {
                         .font(.title)
                         .multilineTextAlignment(.center)
                         .bold()
+                        .foregroundColor(.white)
                     Spacer()
                     
                     Spacer()
@@ -44,18 +45,19 @@ struct ContentView: View {
                     
                     Form{
                         
-                        Text("username:")
+                        Text("Username:")
                         TextField("username", text: $username)
                         
                         Text("Password:")
                         TextField("Password", text: $Password)
                     }
+                    .scrollContentBackground(.hidden)
                     .padding(.bottom ,300)
                     .padding(.top,85)
                     
                     NavigationLink(destination: Sign_up()) {
                         Text ("Forget Password?")}
-                            .padding(.top,-300)
+                            .padding(.top,-330)
                             .padding(.leading, -184.0)
                         .frame(width: 154.0)
                     

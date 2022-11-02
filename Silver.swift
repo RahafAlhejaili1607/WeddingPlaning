@@ -23,6 +23,12 @@ struct Silver: View {
     @State private var Facilities = ""
     @State private var Services = ""
     
+    @State var facilities = """
+* Wedding staircase
+* Separate entrances
+* DJ System
+* BRIDE Room
+"""
     var body: some View {
         
         NavigationView {
@@ -46,6 +52,7 @@ struct Silver: View {
                         .font(.title)
                         .multilineTextAlignment(.center)
                         .bold()
+                        .foregroundColor(.white)
                     Spacer()
                     
                     Spacer()
@@ -93,23 +100,22 @@ struct Silver: View {
                         Section(){
                             Text("Flowers Color & Type")
                             TextField("Flowers Color & Type", text: $FlowersColorandType)
-                           
+                            
                         }
-                                Section(){
+                        Section(){
                             Text("Facilities")
-                                    Menu("Opction"){
-                                        HStack{
-                                            Text("Wedding staircase")
-                                            Text("Separate entrances")
-                                            Text("Bride Room")
-                                            Text("DJ System")
-                                        }
-                                    }
+                            TextEditor(text: $facilities)
+                                .foregroundColor(.gray)
+                            
                         }
-                                Text("Services")
-                                TextField("Services", text: $Services)
-                          
-                            }
+                        
+                        Section(){
+                            Text("Services")
+                            TextField("Services", text: $Services)}
+                        
+                    }     }
+            }
+                    .scrollContentBackground(.hidden)
                            
                             
                           
@@ -137,8 +143,8 @@ struct Silver: View {
                         }
                     }
                 }
-            }
-        }
+            
+        
         
     
 
