@@ -36,7 +36,7 @@ struct Silver: View {
                 //Spacer()
                 Rectangle()
                 //.frame(width: 400.0, height: 300.0)
-                    .foregroundColor(Color(hue: 0.067, saturation: 0.179, brightness: 0.676, opacity: 0.671))
+                    .foregroundColor(Color(hue: 0.068, saturation: 0.179, brightness: 0.676, opacity: 0.671))
                     .ignoresSafeArea()
                 //.position(x:200, y:0)
                 
@@ -48,7 +48,7 @@ struct Silver: View {
                 //.position(x:197, y:440)
                 
                 VStack{
-                    Text("Silver")
+                    Text("Silver  ")
                         .font(.title)
                         .multilineTextAlignment(.center)
                         .bold()
